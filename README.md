@@ -9,7 +9,8 @@ The pi-sicle development board will ship with the newest firmware as of the date
 - Connect the pi-sicle board to a computer
 - USB drive should populate
 - Copy and paste the UF2 to the drive
-The board should now auto unmount and reset. The baord is now flashed with the latest firmware!
+
+The board should now auto unmount and reset. The board is now flashed with the latest firmware!
 
 ## Loader Application
 In order to upload a bitstream to the pi-sicle development board, a loader application is required. The loader application found here is a pip module which is easily installed/updated.
@@ -19,4 +20,5 @@ In order to upload a bitstream to the pi-sicle development board, a loader appli
 - Unzip/untar the directory and change into it
 - If this is a new installation run: `pip install *.tar.gz`
 - If updating an existing installation, run: `pip install --upgrade *.tar.gz`
+
 The installer should now be a callable commandline program via: `pi-sicle-loader`. Test the module by running: `pi-sicle-loader --help`. If the arguments list is not printed, try restarting the terminal/PowerShell session and running the module again. 
