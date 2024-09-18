@@ -19,6 +19,6 @@ In order to upload a bitstream to the pi-sicle development board, a loader appli
 - Navigate to the directory downloaded from here
 - Unzip/untar the directory and change into it
 - If this is a new installation run: `pip install *.tar.gz`
-- If updating an existing installation, run: `pip install --upgrade *.tar.gz`
+- If updating an existing installation, run: `pip install --upgrade pi_sicle_loader-<version>.tar.gz` change <version> to the appropriate version number
 
 The installer should now be a callable commandline program via: `pi-sicle-loader`. Test the module by running: `pi-sicle-loader --help`. If the arguments list is not printed, try restarting the terminal/PowerShell session and running the module again. 
